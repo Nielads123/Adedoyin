@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Menu, X } from "lucide-react"
 import Adedoyin from "./assets/2-removebg-preview.png"
-import BodyOne from "./BodyOne"
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <>
       <div className="">
-        <nav className="flex items-center justify-between px-6 mt-[] h-[100px] bg-black">
+        <nav className="flex items-center justify-between px-6 mt-[] h-[100px] bg-[#352f2f]">
           
           <div>
             <img src={Adedoyin} width="180px" alt="Adedoyin" />
@@ -124,7 +124,7 @@ export default function Navbar() {
           </div>
         )}
 
-        <BodyOne />
+       
       </div>
     </>
   )
