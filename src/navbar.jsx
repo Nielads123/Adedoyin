@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Menu, X } from "lucide-react"
-import Adedoyin from "./assets/2.png"
+import Adedoyin from "./assets/2-removebg-preview.png"
 import BodyOne from "./BodyOne"
 
 export default function Navbar() {
@@ -8,8 +8,8 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="bg-black">
-        <nav className="flex items-center justify-between px-6">
+      <div className="">
+        <nav className="flex items-center justify-between px-6 mt-[] h-[100px] bg-black">
           
           <div>
             <img src={Adedoyin} width="180px" alt="Adedoyin" />
@@ -18,21 +18,13 @@ export default function Navbar() {
          
           <ul className="hidden lg:flex gap-8 text-[#C4C4C4] font-poppins">
             <li>
-              <a
-                href="#"
-                className="bg-[#636060] text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
-              >
-                Home
-              </a>
+              <a href="#" className="bg-[#636060] text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"  > Home </a>
             </li>
+
             <li>
-              <a
-                href="#"
-                className="hover:bg-[#636060] hover:text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
-              >
-                Service
-              </a>
+              <a href="#" className="hover:bg-[#636060] hover:text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"> Service     </a>
             </li>
+            
             <li>
               <a
                 href="#"
