@@ -78,7 +78,7 @@ export default function Navbar() {
 
         {/* Mobile/Tablet Menu */}
         {isOpen && (
-          <div className="lg:hidden flex flex-col items-center gap-6  text-[#C4C4C4] font-poppins bg-black">
+          <div className="lg:hidden flex flex-col items-center gap-6  text-[#C4C4C4] font-poppins bg-[#352f2f]">
             <a
               href="#"
               className="bg-[#636060] text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
