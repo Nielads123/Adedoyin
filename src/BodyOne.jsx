@@ -30,7 +30,7 @@ export default function BodyOne() {
               <div className="text-white font-bold text-[30px] font-poppins">
                 300<span className="text-[#5c3d2e]">+</span>
               </div>
-              <div className="text-black font-semibold">Happy <br /> Client</div>
+              <div className="text-white font-semibold">Happy <br /> Client</div>
             </div>
 
             {/* two */}
@@ -38,7 +38,7 @@ export default function BodyOne() {
               <div className="text-white font-bold text-[30px] font-poppins">
                 900<span className="text-[#5c3d2e]">+</span>
               </div>
-              <div className="text-black font-semibold">Amazing <br />Projects</div>
+              <div className="text-white font-semibold">Amazing <br />Projects</div>
             </div>
 
             {/* three */}
@@ -46,7 +46,7 @@ export default function BodyOne() {
               <div className="text-white font-bold text-[30px] font-poppins">
                 20<span className="text-[#5c3d2e]">+</span>
               </div>
-              <div className="text-black font-semibold">Awards <br /> Winning</div>
+              <div className="text-white font-semibold">Awards <br /> Winning</div>
             </div>
           </div>
           {/* numbers */}
