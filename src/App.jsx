@@ -3,6 +3,7 @@ import Navbar from './navbar'
 import Brand from './Brand'
 import Service from "./Services"
 import Meet from './Meet'
+import Story from "./Story"
 export default function App() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function App() {
      <Brand/>
      <Service/>
      <Meet/>
+     <Story/>
     </>
   )
 }

@@ -2,33 +2,40 @@ import React, { useState } from "react"
 import { Menu, X } from "lucide-react"
 import Adedoyin from "./assets/2-removebg-preview.png"
 
-
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
     <>
-      <div className="">
-        <nav className="flex items-center justify-between px-6 mt-[] h-[100px] bg-[#352f2f]">
-          
+      <div>
+        <nav className="flex items-center justify-between px-6 h-[100px] bg-[#352f2f]">
+          {/* Logo */}
           <div>
             <img src={Adedoyin} width="180px" alt="Adedoyin" />
           </div>
 
-         
+          {/* Desktop Menu */}
           <ul className="hidden lg:flex gap-8 text-[#C4C4C4] font-poppins">
-            <li>
-              <a href="#" className="bg-[#636060] text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"  > Home </a>
-            </li>
-
-            <li>
-              <a href="#" className="hover:bg-[#636060] hover:text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"> Service     </a>
-            </li>
-            
             <li>
               <a
                 href="#"
-                className="hover:bg-[#636060] hover:text-white w-[120px] h-[35px] rounded-md flex items-center justify-center"
+                className="bg-[#636060] text-white w-[90px] h-[35px] rounded-md flex items-center justify-center hover:bg-[#4d4b4b]"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
+              >
+                Service
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[120px] h-[35px] rounded-md flex items-center justify-center"
               >
                 Find a team
               </a>
@@ -36,7 +43,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#"
-                className="hover:bg-[#636060] hover:text-white w-[100px] h-[35px] rounded-md flex items-center justify-center"
+                className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[100px] h-[35px] rounded-md flex items-center justify-center"
               >
                 About Us
               </a>
@@ -44,7 +51,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#"
-                className="hover:bg-[#636060] hover:text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
+                className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
               >
                 Articles
               </a>
@@ -52,7 +59,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#"
-                className="hover:bg-[#636060] hover:text-white w-[110px] h-[35px] rounded-md flex items-center justify-center"
+                className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[110px] h-[35px] rounded-md flex items-center justify-center"
               >
                 Portfolio
               </a>
@@ -60,7 +67,7 @@ export default function Navbar() {
             <li>
               <a
                 href="#"
-                className="hover:bg-[#636060] hover:text-white w-[120px] h-[35px] rounded-md flex items-center justify-center"
+                className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[120px] h-[35px] rounded-md flex items-center justify-center"
               >
                 Contact Us
               </a>
@@ -78,53 +85,51 @@ export default function Navbar() {
 
         {/* Mobile/Tablet Menu */}
         {isOpen && (
-          <div className="lg:hidden flex flex-col items-center gap-6  text-[#C4C4C4] font-poppins bg-[#352f2f]">
+          <div className="lg:hidden flex flex-col items-center gap-6 text-[#C4C4C4] font-poppins bg-[#352f2f] py-6">
             <a
               href="#"
-              className="bg-[#636060] text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
+              className="bg-[#636060] text-white w-[90px] h-[35px] rounded-md flex items-center justify-center hover:bg-[#4d4b4b]"
             >
               Home
             </a>
             <a
               href="#"
-              className="hover:bg-[#636060] hover:text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
+              className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
             >
               Service
             </a>
             <a
               href="#"
-              className="hover:bg-[#636060] hover:text-white w-[120px] h-[35px] rounded-md flex items-center justify-center"
+              className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[120px] h-[35px] rounded-md flex items-center justify-center"
             >
               Find a team
             </a>
             <a
               href="#"
-              className="hover:bg-[#636060] hover:text-white w-[100px] h-[35px] rounded-md flex items-center justify-center"
+              className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[100px] h-[35px] rounded-md flex items-center justify-center"
             >
               About Us
             </a>
             <a
               href="#"
-              className="hover:bg-[#636060] hover:text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
+              className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[90px] h-[35px] rounded-md flex items-center justify-center"
             >
               Articles
             </a>
             <a
               href="#"
-              className="hover:bg-[#636060] hover:text-white w-[110px] h-[35px] rounded-md flex items-center justify-center"
+              className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[110px] h-[35px] rounded-md flex items-center justify-center"
             >
               Portfolio
             </a>
             <a
               href="#"
-              className="hover:bg-[#636060] hover:text-white w-[120px] h-[35px] rounded-md flex items-center justify-center"
+              className="bg-transparent text-[#C4C4C4] hover:bg-[#636060] hover:text-white w-[120px] h-[35px] rounded-md flex items-center justify-center"
             >
               Contact Us
             </a>
           </div>
         )}
-
-       
       </div>
     </>
   )

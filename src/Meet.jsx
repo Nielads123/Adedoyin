@@ -36,19 +36,20 @@ export default function Meet() {
           <div className="text-[32px] sm:text-[40px] lg:text-[50px] font-poppins font-semibold leading-snug">
             Meet and talk with <br /> our best architecture
           </div>
-          <div className="text-[14px] sm:text-[16px] mt-[20px] font-medium text-[#dbdbdb] font-poppins leading-relaxed">
+          <div className="text-[14px] sm:text-[16px] mt-[20px] font-medium  font-poppins leading-relaxed">
             All our team are professional and competent in their <br className="hidden sm:block" />
             field and will help you realize your dream building <br className="hidden sm:block" />
             with the excellent result.
           </div>
-          <div className="font-poppins cursor-pointer bg-[#0a71ad] text-white px-6 py-3 sm:py-4 mt-[40px] rounded-sm inline-block">
-            See all team
-          </div>
+          <div className="bg-[#5c3d2e] text-white px-6 py-3 mt-[40px] rounded-sm inline-block shadow-lg shadow-[#5c3d2e]/50">
+  See More
+</div>
+
         </div>
         {/* right */}
       </div>
 
-      <div>d</div>
+     
     </>
   )
 }
