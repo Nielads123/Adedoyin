@@ -2,6 +2,7 @@ import BodyOne from './BodyOne'
 import Navbar from './navbar'
 import Brand from './Brand'
 import Service from "./Services"
+import Meet from './Meet'
 export default function App() {
   return (
     <>
@@ -9,6 +10,7 @@ export default function App() {
      <BodyOne/>
      <Brand/>
      <Service/>
+     <Meet/>
     </>
   )
 }

@@ -81,7 +81,7 @@ export default function BodyOne() {
             </div>
 
             {/* Three */}
-            <div className="font-poppins text-sm md:text-[25px] lg:text-[16px]">
+            <div className="font-poppins text-center text-sm md:text-[25px] lg:text-[16px]">
               As a trusted general project that has been operating for 25 years, 
               our commitment is always to prioritize our client satisfaction
             </div>

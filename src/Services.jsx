@@ -57,7 +57,7 @@ function Services(){
                {/* second-section */}
             </div>
 
-            <div>dd</div>
+            
         </>
     )
 }
