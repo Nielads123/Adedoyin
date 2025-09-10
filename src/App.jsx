@@ -4,6 +4,8 @@ import Brand from './Brand'
 import Service from "./Services"
 import Meet from './Meet'
 import Story from "./Story"
+import Slider from './Slider'
+import Footer from "./Footer"
 export default function App() {
   return (
     <>
@@ -13,6 +15,8 @@ export default function App() {
      <Service/>
      <Meet/>
      <Story/>
+     <Slider/>
+     <Footer/>
     </>
   )
 }
