@@ -5,7 +5,11 @@ import Service from "./Services"
 import Meet from './Meet'
 import Story from "./Story"
 import Slider from './Slider'
-import Footer from "./Footer"
+import Footer from './Footer'
+import Contact from './Contact'
+import Footertwo from './Footertwo'
+
+
 export default function App() {
   return (
     <>
@@ -17,6 +21,8 @@ export default function App() {
      <Story/>
      <Slider/>
      <Footer/>
+     <Contact/>
+     <Footertwo/>
     </>
   )
 }

@@ -4,6 +4,7 @@ import Blackman2 from "./assets/blackwoman.jpg";
 import Blackman3 from "./assets/Whiteman.jpg";
 import Blackman4 from "./assets/Whitewoman.jpg";
 
+
 const testimonials = [
   {
     img: Blackman,
@@ -34,7 +35,7 @@ export default function Footer() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % testimonials.length);
-    }, 4000);
+    }, 6000);
     return () => clearInterval(interval);
   }, []);
 
@@ -42,7 +43,8 @@ export default function Footer() {
 
   return (
     <>
-      <div className="flex flex-col py-16 lg:flex-row items-center justify-between lg:ml-[200px] lg:px-10 mt-[100px] text-center w-full h-[1000px] md:h-[900px] lg:h-[500px] lg:w-[1000px] rounded-xl bg-[#5c3d2e]">
+     <div className="main">
+       <div className="flex flex-col py-16 lg:flex-row items-center justify-between lg:ml-[200px] lg:px-10 mt-[100px] text-center w-full h-[1000px] md:h-[900px] lg:h-[500px] lg:w-[1000px] rounded-xl bg-[#5c3d2e]">
         {/* left (Image + box) */}
         <div className="mt-2 relative md:mt-12 lg:mt-0">
           <img
@@ -76,6 +78,11 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+     </div>
+        
+
+
     </>
   );
 }
