@@ -5,14 +5,15 @@ import Human from "./assets/human.jpg"
 export default function Meet() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-center justify-between lg:px-10 mt-[100px] gap-12">
+      <div className="flex flex-col lg:flex-row items-center justify-between lg:px-10 mt-[100px] gap-12" >
         {/* left */}
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center "   data-aos="fade-right"
+          data-aos-duration="1000">
           {/* main image */}
           <img src={Boxhouse} className="w-[300px]  sm:w-[350px] lg:w-[400px]" alt="box" />
 
           {/* overlay card */}
-          <div className="absolute -bottom-[170px] sm:-bottom-[170px] lg:bottom-auto lg:top-[80px] lg:left-[400px] lg:-translate-x-1/2 bg-[#222222] h-[350px] w-[280px] sm:w-[320px] lg:w-[350px] flex flex-col items-center pt-10 shadow-lg">
+          <div className="absolute -bottom-[170px] sm:-bottom-[170px] lg:bottom-auto lg:top-[80px] lg:left-[400px] lg:-translate-x-1/2 bg-[#222222] h-[350px] w-[280px] sm:w-[320px] lg:w-[350px] flex flex-col items-center pt-10 shadow-lg" >
             <img
               src={Human}
               className="w-[90px] h-[90px] sm:w-[100px] sm:h-[100px] rounded-full object-cover"
@@ -32,7 +33,8 @@ export default function Meet() {
         {/* left */}
 
         {/* right */}
-        <div className="text-center mt-[200px] lg:text-left lg:ml-10 lg:mt-0 xl:ml-[150px]">
+        <div className="text-center mt-[200px] lg:text-left lg:ml-10 lg:mt-0 xl:ml-[150px]"  data-aos="fade-left"
+          data-aos-duration="1000">
           <div className="text-[32px] sm:text-[40px] lg:text-[50px] font-poppins font-semibold leading-snug">
             Meet and talk with <br /> our best architecture
           </div>
